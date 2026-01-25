@@ -1,0 +1,768 @@
+
+2025-01-30 11:51:20,050 - INFO - Scheduler started
+2025-01-30 12:57:48,234 - INFO - Scheduler started
+2025-01-30 13:00:20,563 - INFO - Page loaded successfully.
+2025-01-30 13:00:22,636 - INFO - Found report: C_VAR1_30012025_1.DAT
+2025-01-30 13:00:24,183 - INFO - Selected: C_VAR1_30012025_1.DAT
+2025-01-30 13:00:24,207 - INFO - Found report: C_VAR1_30012025_2.DAT
+2025-01-30 13:00:25,439 - INFO - Selected: C_VAR1_30012025_2.DAT
+2025-01-30 13:00:25,465 - INFO - Found report: C_VAR1_30012025_3.DAT
+2025-01-30 13:00:26,896 - INFO - Selected: C_VAR1_30012025_3.DAT
+2025-01-30 13:00:26,941 - INFO - Found report: APPSEC_COLLVAL_30012025.csv
+2025-01-30 13:00:28,016 - INFO - Selected: APPSEC_COLLVAL_30012025.csv
+2025-01-30 13:00:28,038 - INFO - Found report: MF_VAR_30012025.csv
+2025-01-30 13:00:29,182 - INFO - Selected: MF_VAR_30012025.csv
+2025-01-30 13:00:29,215 - INFO - Found report: series_change.csv
+2025-01-30 13:00:30,562 - INFO - Selected: series_change.csv
+2025-01-30 13:00:30,600 - INFO - Found report: ShortSelling.csv
+2025-01-30 13:00:31,753 - INFO - Selected: ShortSelling.csv
+2025-01-30 13:00:31,787 - INFO - Found report: eq_band_changes_30012025.csv
+2025-01-30 13:00:33,064 - INFO - Selected: eq_band_changes_30012025.csv
+2025-01-30 13:00:33,079 - INFO - Found report: CM_52_wk_High_low_30012025.csv
+2025-01-30 13:00:34,432 - INFO - Selected: CM_52_wk_High_low_30012025.csv
+2025-01-30 13:00:34,448 - INFO - Found report: CM_Latency_stats29012025.csv
+2025-01-30 13:00:35,648 - INFO - Selected: CM_Latency_stats29012025.csv
+2025-01-30 13:00:35,679 - INFO - Found report: sme_bands_complete_30012025.csv
+2025-01-30 13:00:37,184 - INFO - Selected: sme_bands_complete_30012025.csv
+2025-01-30 13:00:40,241 - INFO - Multi Download button clicked.
+2025-01-30 13:00:48,251 - INFO - (data_retrieval) In Extraction Process
+2025-01-30 13:00:48,251 - INFO - (data_retrieval) Extraction directory path: C:\NSE\nsefiles\300125
+2025-01-30 13:00:48,314 - INFO - All files downloaded and verified successfully.
+2025-01-30 13:00:48,319 - INFO - All duplicates handled successfully.
+2025-01-30 13:00:48,320 - INFO - All file successfully verified for duplicates
+2025-01-30 13:00:48,321 - INFO - moved file C:\NSE\nsefiles\300125\APPSEC_COLLVAL_30012025.csv to C:\NSE\nsefiles\300125\csv
+2025-01-30 13:00:48,322 - INFO - moved file C:\NSE\nsefiles\300125\CM_52_wk_High_low_30012025.csv to C:\NSE\nsefiles\300125\csv
+2025-01-30 13:00:48,328 - INFO - moved file C:\NSE\nsefiles\300125\CM_Latency_stats29012025.csv to C:\NSE\nsefiles\300125\csv
+2025-01-30 13:00:48,330 - INFO - moved file C:\NSE\nsefiles\300125\C_VAR1_30012025_1.DAT to C:\NSE\nsefiles\300125\DAT
+2025-01-30 13:00:48,330 - INFO - moved file C:\NSE\nsefiles\300125\C_VAR1_30012025_2.DAT to C:\NSE\nsefiles\300125\DAT
+2025-01-30 13:00:48,330 - INFO - moved file C:\NSE\nsefiles\300125\C_VAR1_30012025_3.DAT to C:\NSE\nsefiles\300125\DAT
+2025-01-30 13:00:48,330 - INFO - moved file C:\NSE\nsefiles\300125\eq_band_changes_30012025.csv to C:\NSE\nsefiles\300125\csv
+2025-01-30 13:00:48,330 - INFO - moved file C:\NSE\nsefiles\300125\MF_VAR_30012025.csv to C:\NSE\nsefiles\300125\csv
+2025-01-30 13:00:48,330 - INFO - moved file C:\NSE\nsefiles\300125\series_change.csv to C:\NSE\nsefiles\300125\csv
+2025-01-30 13:00:48,343 - INFO - moved file C:\NSE\nsefiles\300125\ShortSelling.csv to C:\NSE\nsefiles\300125\csv
+2025-01-30 13:00:48,343 - INFO - moved file C:\NSE\nsefiles\300125\sme_bands_complete_30012025.csv to C:\NSE\nsefiles\300125\csv
+2025-01-30 13:00:48,343 - INFO - File found and is a CSV: C:\NSE\nsefiles\300125\csv\APPSEC_COLLVAL_30012025.csv
+2025-01-30 13:00:48,377 - INFO - CSV loaded successfully.
+2025-01-30 13:00:48,378 - INFO - Column names are valid.
+2025-01-30 13:00:48,382 - INFO - Column '1' data type: integer
+2025-01-30 13:00:48,383 - INFO - Column 'AARTIPHARM' data type: string
+2025-01-30 13:00:48,384 - INFO - Column 'INE0LRU01027' data type: string
+2025-01-30 13:00:48,384 - INFO - Column '587.3' data type: floating
+2025-01-30 13:00:48,384 - INFO - Column '20' data type: floating
+2025-01-30 13:00:48,384 - INFO - All columns have consistent data types.
+2025-01-30 13:00:48,384 - INFO - No missing values or anomalies detected.
+2025-01-30 13:00:48,384 - INFO - CSV file is valid!
+2025-01-30 13:00:48,384 - INFO - File found and is a CSV: C:\NSE\nsefiles\300125\csv\CM_52_wk_High_low_30012025.csv
+2025-01-30 13:00:48,400 - ERROR - Error parsing CSV file: Error tokenizing data. C error: Expected 1 fields in line 3, saw 6
+
+2025-01-30 13:00:48,400 - WARNING - Validation failed for: CM_52_wk_High_low_30012025.csv
+2025-01-30 13:00:48,401 - INFO - File found and is a CSV: C:\NSE\nsefiles\300125\csv\CM_Latency_stats29012025.csv
+2025-01-30 13:00:48,417 - INFO - CSV loaded successfully.
+2025-01-30 13:00:48,418 - INFO - Column names are valid.
+2025-01-30 13:00:48,420 - INFO - Column 'Latency in microseconds observed for '29-JAN-2025'' data type: string
+2025-01-30 13:00:48,420 - INFO - All columns have consistent data types.
+2025-01-30 13:00:48,423 - WARNING - Column 'Latency in microseconds observed for '29-JAN-2025'' has 1 missing values.
+2025-01-30 13:00:48,424 - WARNING - Validation failed for: CM_Latency_stats29012025.csv
+2025-01-30 13:00:48,425 - INFO - File found and is a CSV: C:\NSE\nsefiles\300125\csv\eq_band_changes_30012025.csv
+2025-01-30 13:00:48,432 - INFO - CSV loaded successfully.
+2025-01-30 13:00:48,432 - INFO - Column names are valid.
+2025-01-30 13:00:48,432 - INFO - Column 'Sr. No' data type: integer
+2025-01-30 13:00:48,432 - INFO - Column 'Symbol' data type: string
+2025-01-30 13:00:48,432 - INFO - Column 'Series' data type: string
+2025-01-30 13:00:48,432 - INFO - Column 'Security Name' data type: string
+2025-01-30 13:00:48,432 - INFO - Column 'From' data type: integer
+2025-01-30 13:00:48,432 - INFO - Column 'To' data type: integer
+2025-01-30 13:00:48,432 - INFO - All columns have consistent data types.
+2025-01-30 13:00:48,432 - INFO - No missing values or anomalies detected.
+2025-01-30 13:00:48,432 - INFO - CSV file is valid!
+2025-01-30 13:00:48,432 - INFO - File found and is a CSV: C:\NSE\nsefiles\300125\csv\MF_VAR_30012025.csv
+2025-01-30 13:00:48,459 - INFO - CSV loaded successfully.
+2025-01-30 13:00:48,459 - INFO - Column names are valid.
+2025-01-30 13:00:48,459 - INFO - Column 'ISIN' data type: string
+2025-01-30 13:00:48,464 - INFO - Column 'SYMBOL' data type: string
+2025-01-30 13:00:48,464 - INFO - Column 'SERIES' data type: string
+2025-01-30 13:00:48,464 - INFO - Column 'TYPE' data type: string
+2025-01-30 13:00:48,464 - INFO - Column 'HAIRCUT' data type: floating
+2025-01-30 13:00:48,464 - INFO - Column 'NAV' data type: floating
+2025-01-30 13:00:48,464 - INFO - All columns have consistent data types.
+2025-01-30 13:00:48,464 - INFO - No missing values or anomalies detected.
+2025-01-30 13:00:48,464 - INFO - CSV file is valid!
+2025-01-30 13:00:48,464 - INFO - File found and is a CSV: C:\NSE\nsefiles\300125\csv\series_change.csv
+2025-01-30 13:00:48,479 - INFO - CSV loaded successfully.
+2025-01-30 13:00:48,479 - INFO - Column names are valid.
+2025-01-30 13:00:48,479 - INFO - Column 'Symbol' data type: string
+2025-01-30 13:00:48,479 - INFO - Column 'Security' data type: string
+2025-01-30 13:00:48,479 - INFO - Column 'From Series' data type: string
+2025-01-30 13:00:48,479 - INFO - Column 'To Series' data type: string
+2025-01-30 13:00:48,479 - INFO - Column 'Change Date' data type: string
+2025-01-30 13:00:48,479 - INFO - Column 'Remarks' data type: string
+2025-01-30 13:00:48,479 - INFO - All columns have consistent data types.
+2025-01-30 13:00:48,479 - INFO - No missing values or anomalies detected.
+2025-01-30 13:00:48,479 - INFO - CSV file is valid!
+2025-01-30 13:00:48,479 - INFO - File found and is a CSV: C:\NSE\nsefiles\300125\csv\ShortSelling.csv
+2025-01-30 13:00:48,495 - INFO - CSV loaded successfully.
+2025-01-30 13:00:48,495 - INFO - Column names are valid.
+2025-01-30 13:00:48,495 - INFO - Column 'Security Name' data type: string
+2025-01-30 13:00:48,495 - INFO - Column 'Symbol Name' data type: string
+2025-01-30 13:00:48,495 - INFO - Column 'Trade Date' data type: string
+2025-01-30 13:00:48,495 - INFO - Column 'Quantity' data type: integer
+2025-01-30 13:00:48,495 - INFO - All columns have consistent data types.
+2025-01-30 13:00:48,495 - INFO - No missing values or anomalies detected.
+2025-01-30 13:00:48,495 - INFO - CSV file is valid!
+2025-01-30 13:00:48,495 - INFO - File found and is a CSV: C:\NSE\nsefiles\300125\csv\sme_bands_complete_30012025.csv
+2025-01-30 13:00:48,511 - INFO - CSV loaded successfully.
+2025-01-30 13:00:48,511 - INFO - Column names are valid.
+2025-01-30 13:00:48,511 - INFO - Column 'Symbol' data type: string
+2025-01-30 13:00:48,511 - INFO - Column 'Series' data type: string
+2025-01-30 13:00:48,511 - INFO - Column 'Name' data type: string
+2025-01-30 13:00:48,511 - INFO - Column 'Band' data type: integer
+2025-01-30 13:00:48,511 - INFO - Column 'Remarks' data type: string
+2025-01-30 13:00:48,511 - INFO - All columns have consistent data types.
+2025-01-30 13:00:48,511 - INFO - No missing values or anomalies detected.
+2025-01-30 13:00:48,511 - INFO - CSV file is valid!
+2025-01-30 13:12:31,384 - INFO - Scheduler started
+2025-01-30 13:33:57,301 - INFO - Scheduler started
+2025-01-30 13:34:26,273 - INFO - Added job "Re-added Report Automation at 2025-01-24 19:37:00" to job store "default"
+2025-01-30 13:34:26,274 - INFO - Added job "Re-added Report Automation at 2025-01-24 19:38:00" to job store "default"
+2025-01-30 13:34:26,276 - WARNING - Run time of job "Re-added Report Automation at 2025-01-24 19:37:00 (trigger: date[2025-01-24 19:37:00 IST], next run at: 2025-01-24 19:37:00 IST)" was missed by 5 days, 17:57:26.276074
+2025-01-30 13:34:26,277 - INFO - Removed job 2025-01-24 19:37:00
+2025-01-30 13:34:26,320 - INFO - Removed job 2025-01-24 19:38:00
+2025-01-30 13:34:26,320 - WARNING - Run time of job "Re-added Report Automation at 2025-01-24 19:38:00 (trigger: date[2025-01-24 19:38:00 IST], next run at: 2025-01-24 19:38:00 IST)" was missed by 5 days, 17:56:26.320258
+2025-01-30 13:37:58,505 - INFO - Scheduler started
+2025-01-30 13:42:11,004 - INFO - Scheduler started
+2025-01-30 13:44:46,991 - INFO - Scheduler started
+2025-01-30 16:54:33,874 - INFO - Scheduler started
+2025-02-27 14:43:24,093 - INFO - Scheduler started
+2025-02-27 14:44:03,926 - INFO - Page loaded successfully.
+2025-02-27 14:44:06,060 - INFO - Found report: C_VAR1_27022025_1.DAT
+2025-02-27 14:44:07,420 - INFO - Selected: C_VAR1_27022025_1.DAT
+2025-02-27 14:44:07,484 - INFO - Found report: C_VAR1_27022025_2.DAT
+2025-02-27 14:44:08,684 - INFO - Selected: C_VAR1_27022025_2.DAT
+2025-02-27 14:44:08,748 - INFO - Found report: C_VAR1_27022025_3.DAT
+2025-02-27 14:44:10,079 - INFO - Selected: C_VAR1_27022025_3.DAT
+2025-02-27 14:44:10,118 - INFO - Found report: C_VAR1_27022025_4.DAT
+2025-02-27 14:44:11,572 - INFO - Selected: C_VAR1_27022025_4.DAT
+2025-02-27 14:44:11,603 - INFO - Found report: APPSEC_COLLVAL_27022025.csv
+2025-02-27 14:44:12,782 - INFO - Selected: APPSEC_COLLVAL_27022025.csv
+2025-02-27 14:44:12,813 - INFO - Found report: MF_VAR_27022025.csv
+2025-02-27 14:44:14,081 - INFO - Selected: MF_VAR_27022025.csv
+2025-02-27 14:44:14,127 - INFO - Found report: series_change.csv
+2025-02-27 14:44:15,483 - INFO - Selected: series_change.csv
+2025-02-27 14:44:15,519 - INFO - Found report: AUB_2025041_27022025.csv
+2025-02-27 14:44:16,963 - INFO - Selected: AUB_2025041_27022025.csv
+2025-02-27 14:44:16,999 - INFO - Found report: shortselling_27022025.csv
+2025-02-27 14:44:18,498 - INFO - Selected: shortselling_27022025.csv
+2025-02-27 14:44:18,528 - INFO - Found report: eq_band_changes_27022025.csv
+2025-02-27 14:44:19,632 - INFO - Selected: eq_band_changes_27022025.csv
+2025-02-27 14:44:19,674 - INFO - Found report: CM_52_wk_High_low_27022025.csv
+2025-02-27 14:44:21,004 - INFO - Selected: CM_52_wk_High_low_27022025.csv
+2025-02-27 14:44:21,043 - INFO - Found report: CM_Latency_stats25022025.csv
+2025-02-27 14:44:22,477 - INFO - Selected: CM_Latency_stats25022025.csv
+2025-02-27 14:44:22,527 - INFO - Found report: sme_bands_complete_27022025.csv
+2025-02-27 14:44:23,766 - INFO - Selected: sme_bands_complete_27022025.csv
+2025-02-27 14:44:26,849 - INFO - Multi Download button clicked.
+2025-02-27 14:44:33,857 - INFO - (data_retrieval) In Extraction Process
+2025-02-27 14:44:33,859 - INFO - (data_retrieval) Extraction directory path: C:\NSE\nsefiles\270225
+2025-02-27 14:44:33,981 - INFO - All files downloaded and verified successfully.
+2025-02-27 14:44:33,984 - INFO - All duplicates handled successfully.
+2025-02-27 14:44:33,984 - INFO - All file successfully verified for duplicates
+2025-02-27 14:44:33,984 - INFO - moved file C:\NSE\nsefiles\270225\APPSEC_COLLVAL_27022025.csv to C:\NSE\nsefiles\270225\csv
+2025-02-27 14:44:33,992 - INFO - moved file C:\NSE\nsefiles\270225\AUB_2025041_27022025.csv to C:\NSE\nsefiles\270225\csv
+2025-02-27 14:44:33,992 - INFO - moved file C:\NSE\nsefiles\270225\CM_52_wk_High_low_27022025.csv to C:\NSE\nsefiles\270225\csv
+2025-02-27 14:44:33,999 - INFO - moved file C:\NSE\nsefiles\270225\CM_Latency_stats25022025.csv to C:\NSE\nsefiles\270225\csv
+2025-02-27 14:44:34,000 - INFO - moved file C:\NSE\nsefiles\270225\C_VAR1_27022025_1.DAT to C:\NSE\nsefiles\270225\DAT
+2025-02-27 14:44:34,004 - INFO - moved file C:\NSE\nsefiles\270225\C_VAR1_27022025_2.DAT to C:\NSE\nsefiles\270225\DAT
+2025-02-27 14:44:34,004 - INFO - moved file C:\NSE\nsefiles\270225\C_VAR1_27022025_3.DAT to C:\NSE\nsefiles\270225\DAT
+2025-02-27 14:44:34,012 - INFO - moved file C:\NSE\nsefiles\270225\C_VAR1_27022025_4.DAT to C:\NSE\nsefiles\270225\DAT
+2025-02-27 14:44:34,014 - INFO - moved file C:\NSE\nsefiles\270225\eq_band_changes_27022025.csv to C:\NSE\nsefiles\270225\csv
+2025-02-27 14:44:34,019 - INFO - moved file C:\NSE\nsefiles\270225\MF_VAR_27022025.csv to C:\NSE\nsefiles\270225\csv
+2025-02-27 14:44:34,019 - INFO - moved file C:\NSE\nsefiles\270225\series_change.csv to C:\NSE\nsefiles\270225\csv
+2025-02-27 14:44:34,026 - INFO - moved file C:\NSE\nsefiles\270225\shortselling_27022025.csv to C:\NSE\nsefiles\270225\csv
+2025-02-27 14:44:34,027 - INFO - moved file C:\NSE\nsefiles\270225\sme_bands_complete_27022025.csv to C:\NSE\nsefiles\270225\csv
+2025-02-27 14:44:34,030 - INFO - File found and is a CSV: C:\NSE\nsefiles\270225\csv\APPSEC_COLLVAL_27022025.csv
+2025-02-27 14:44:34,084 - INFO - CSV loaded successfully.
+2025-02-27 14:44:34,084 - INFO - Column names are valid.
+2025-02-27 14:44:34,100 - INFO - Column '1' data type: integer
+2025-02-27 14:44:34,103 - INFO - Column 'AARTIPHARM' data type: string
+2025-02-27 14:44:34,105 - INFO - Column 'INE0LRU01027' data type: string
+2025-02-27 14:44:34,105 - INFO - Column '777.35' data type: floating
+2025-02-27 14:44:34,105 - INFO - Column '20' data type: floating
+2025-02-27 14:44:34,107 - INFO - All columns have consistent data types.
+2025-02-27 14:44:34,107 - INFO - No missing values or anomalies detected.
+2025-02-27 14:44:34,107 - INFO - CSV file is valid!
+2025-02-27 14:44:34,107 - INFO - File found and is a CSV: C:\NSE\nsefiles\270225\csv\AUB_2025041_27022025.csv
+2025-02-27 14:44:34,150 - INFO - CSV loaded successfully.
+2025-02-27 14:44:34,150 - INFO - Column names are valid.
+2025-02-27 14:44:34,152 - INFO - Column 'Confirmed list of securities to be auctioned in A 2025041 to be held on Feb 27 2025.' data type: string
+2025-02-27 14:44:34,152 - INFO - All columns have consistent data types.
+2025-02-27 14:44:34,152 - INFO - No missing values or anomalies detected.
+2025-02-27 14:44:34,158 - INFO - CSV file is valid!
+2025-02-27 14:44:34,160 - INFO - File found and is a CSV: C:\NSE\nsefiles\270225\csv\CM_52_wk_High_low_27022025.csv
+2025-02-27 14:44:34,194 - ERROR - Error parsing CSV file: Error tokenizing data. C error: Expected 1 fields in line 3, saw 6
+
+2025-02-27 14:44:34,194 - WARNING - Validation failed for: CM_52_wk_High_low_27022025.csv
+2025-02-27 14:44:34,194 - INFO - File found and is a CSV: C:\NSE\nsefiles\270225\csv\CM_Latency_stats25022025.csv
+2025-02-27 14:44:34,230 - INFO - CSV loaded successfully.
+2025-02-27 14:44:34,230 - INFO - Column names are valid.
+2025-02-27 14:44:34,239 - INFO - Column 'Latency in microseconds observed for '25-FEB-2025'' data type: string
+2025-02-27 14:44:34,239 - INFO - All columns have consistent data types.
+2025-02-27 14:44:34,247 - WARNING - Column 'Latency in microseconds observed for '25-FEB-2025'' has 1 missing values.
+2025-02-27 14:44:34,247 - WARNING - Validation failed for: CM_Latency_stats25022025.csv
+2025-02-27 14:44:34,250 - INFO - File found and is a CSV: C:\NSE\nsefiles\270225\csv\eq_band_changes_27022025.csv
+2025-02-27 14:44:34,299 - INFO - CSV loaded successfully.
+2025-02-27 14:44:34,301 - INFO - Column names are valid.
+2025-02-27 14:44:34,303 - INFO - Column 'Sr. No' data type: integer
+2025-02-27 14:44:34,305 - INFO - Column 'Symbol' data type: string
+2025-02-27 14:44:34,309 - INFO - Column 'Series' data type: string
+2025-02-27 14:44:34,313 - INFO - Column 'Security Name' data type: string
+2025-02-27 14:44:34,315 - INFO - Column 'From' data type: integer
+2025-02-27 14:44:34,317 - INFO - Column 'To' data type: integer
+2025-02-27 14:44:34,319 - INFO - All columns have consistent data types.
+2025-02-27 14:44:34,323 - INFO - No missing values or anomalies detected.
+2025-02-27 14:44:34,328 - INFO - CSV file is valid!
+2025-02-27 14:44:34,330 - INFO - File found and is a CSV: C:\NSE\nsefiles\270225\csv\MF_VAR_27022025.csv
+2025-02-27 14:44:34,408 - INFO - CSV loaded successfully.
+2025-02-27 14:44:34,408 - INFO - Column names are valid.
+2025-02-27 14:44:34,408 - INFO - Column 'ISIN' data type: string
+2025-02-27 14:44:34,408 - INFO - Column 'SYMBOL' data type: string
+2025-02-27 14:44:34,416 - INFO - Column 'SERIES' data type: string
+2025-02-27 14:44:34,416 - INFO - Column 'TYPE' data type: string
+2025-02-27 14:44:34,416 - INFO - Column 'HAIRCUT' data type: floating
+2025-02-27 14:44:34,416 - INFO - Column 'NAV' data type: floating
+2025-02-27 14:44:34,416 - INFO - All columns have consistent data types.
+2025-02-27 14:44:34,424 - INFO - No missing values or anomalies detected.
+2025-02-27 14:44:34,424 - INFO - CSV file is valid!
+2025-02-27 14:44:34,429 - INFO - File found and is a CSV: C:\NSE\nsefiles\270225\csv\series_change.csv
+2025-02-27 14:44:34,449 - INFO - CSV loaded successfully.
+2025-02-27 14:44:34,449 - INFO - Column names are valid.
+2025-02-27 14:44:34,458 - INFO - Column 'Symbol' data type: string
+2025-02-27 14:44:34,458 - INFO - Column 'Security' data type: string
+2025-02-27 14:44:34,461 - INFO - Column 'From Series' data type: string
+2025-02-27 14:44:34,463 - INFO - Column 'To Series' data type: string
+2025-02-27 14:44:34,465 - INFO - Column 'Change Date' data type: string
+2025-02-27 14:44:34,466 - INFO - Column 'Remarks' data type: string
+2025-02-27 14:44:34,466 - INFO - All columns have consistent data types.
+2025-02-27 14:44:34,466 - INFO - No missing values or anomalies detected.
+2025-02-27 14:44:34,469 - INFO - CSV file is valid!
+2025-02-27 14:44:34,469 - INFO - File found and is a CSV: C:\NSE\nsefiles\270225\csv\shortselling_27022025.csv
+2025-02-27 14:44:34,499 - INFO - CSV loaded successfully.
+2025-02-27 14:44:34,499 - INFO - Column names are valid.
+2025-02-27 14:44:34,499 - INFO - Column 'Security Name' data type: string
+2025-02-27 14:44:34,499 - INFO - Column 'Symbol Name' data type: string
+2025-02-27 14:44:34,499 - INFO - Column 'Trade Date' data type: string
+2025-02-27 14:44:34,499 - INFO - Column 'Quantity' data type: integer
+2025-02-27 14:44:34,507 - INFO - All columns have consistent data types.
+2025-02-27 14:44:34,507 - INFO - No missing values or anomalies detected.
+2025-02-27 14:44:34,507 - INFO - CSV file is valid!
+2025-02-27 14:44:34,511 - INFO - File found and is a CSV: C:\NSE\nsefiles\270225\csv\sme_bands_complete_27022025.csv
+2025-02-27 14:44:34,544 - INFO - CSV loaded successfully.
+2025-02-27 14:44:34,548 - INFO - Column names are valid.
+2025-02-27 14:44:34,549 - INFO - Column 'Symbol' data type: string
+2025-02-27 14:44:34,549 - INFO - Column 'Series' data type: string
+2025-02-27 14:44:34,549 - INFO - Column 'Name' data type: string
+2025-02-27 14:44:34,549 - INFO - Column 'Band' data type: integer
+2025-02-27 14:44:34,549 - INFO - Column 'Remarks' data type: string
+2025-02-27 14:44:34,554 - INFO - All columns have consistent data types.
+2025-02-27 14:44:34,554 - INFO - No missing values or anomalies detected.
+2025-02-27 14:44:34,554 - INFO - CSV file is valid!2025-06-11 19:43:57,440 - INFO - Scheduler started
+2025-06-11 19:44:27,819 - INFO - Added job "Re-added Report Automation at 2025-01-24 19:37:00" to job store "default"
+2025-06-11 19:44:27,819 - INFO - Added job "Re-added Report Automation at 2025-01-24 19:38:00" to job store "default"
+2025-06-11 19:44:27,819 - WARNING - Run time of job "Re-added Report Automation at 2025-01-24 19:37:00 (trigger: date[2025-01-24 19:37:00 IST], next run at: 2025-01-24 19:37:00 IST)" was missed by 138 days, 0:07:27.819047
+2025-06-11 19:44:27,824 - INFO - Removed job 2025-01-24 19:37:00
+2025-06-11 19:44:27,832 - INFO - Removed job 2025-01-24 19:38:00
+2025-06-11 19:44:27,832 - WARNING - Run time of job "Re-added Report Automation at 2025-01-24 19:38:00 (trigger: date[2025-01-24 19:38:00 IST], next run at: 2025-01-24 19:38:00 IST)" was missed by 138 days, 0:06:27.832020
+2025-06-11 19:44:35,860 - INFO - Page loaded successfully.
+2025-06-11 19:44:38,002 - INFO - Found report: C_VAR1_11062025_1.DAT
+2025-06-11 19:44:39,461 - INFO - Selected: C_VAR1_11062025_1.DAT
+2025-06-11 19:44:39,560 - INFO - Found report: C_VAR1_11062025_2.DAT
+2025-06-11 19:44:40,929 - INFO - Selected: C_VAR1_11062025_2.DAT
+2025-06-11 19:44:40,977 - INFO - Found report: C_VAR1_11062025_3.DAT
+2025-06-11 19:44:42,237 - INFO - Selected: C_VAR1_11062025_3.DAT
+2025-06-11 19:44:42,295 - INFO - Found report: C_VAR1_11062025_4.DAT
+2025-06-11 19:44:43,580 - INFO - Selected: C_VAR1_11062025_4.DAT
+2025-06-11 19:44:43,666 - INFO - Found report: C_VAR1_11062025_5.DAT
+2025-06-11 19:44:45,216 - INFO - Selected: C_VAR1_11062025_5.DAT
+2025-06-11 19:44:45,245 - INFO - Found report: C_VAR1_11062025_6.DAT
+2025-06-11 19:44:46,536 - INFO - Selected: C_VAR1_11062025_6.DAT
+2025-06-11 19:44:46,568 - INFO - Found report: APPSEC_COLLVAL_11062025.csv
+2025-06-11 19:44:47,916 - INFO - Selected: APPSEC_COLLVAL_11062025.csv
+2025-06-11 19:44:47,949 - INFO - Found report: MF_VAR_11062025.csv
+2025-06-11 19:44:49,244 - INFO - Selected: MF_VAR_11062025.csv
+2025-06-11 19:44:49,277 - INFO - Found report: PR110625.zip
+2025-06-11 19:44:50,578 - INFO - Selected: PR110625.zip
+2025-06-11 19:44:50,617 - INFO - Found report: corpbond110625.csv
+2025-06-11 19:44:51,901 - INFO - Selected: corpbond110625.csv
+2025-06-11 19:44:51,935 - INFO - Found report: MA110625.csv
+2025-06-11 19:44:53,028 - INFO - Selected: MA110625.csv
+2025-06-11 19:44:53,076 - INFO - Found report: MTO_11062025.DAT
+2025-06-11 19:44:54,558 - INFO - Selected: MTO_11062025.DAT
+2025-06-11 19:44:54,585 - INFO - Found report: series_change.csv
+2025-06-11 19:44:55,794 - INFO - Selected: series_change.csv
+2025-06-11 19:44:55,832 - INFO - Found report: AUB_2025109_11062025.csv
+2025-06-11 19:44:57,397 - INFO - Selected: AUB_2025109_11062025.csv
+2025-06-11 19:44:57,422 - INFO - Found report: CMVOLT_11062025.CSV
+2025-06-11 19:44:58,607 - INFO - Selected: CMVOLT_11062025.CSV
+2025-06-11 19:44:58,635 - INFO - Found report: shortselling_11062025.csv
+2025-06-11 19:45:00,132 - INFO - Selected: shortselling_11062025.csv
+2025-06-11 19:45:00,155 - INFO - Found report: eq_band_changes_11062025.csv
+2025-06-11 19:45:01,344 - INFO - Selected: eq_band_changes_11062025.csv
+2025-06-11 19:45:01,414 - INFO - Found report: C_STT_11062025.csv
+2025-06-11 19:45:02,894 - INFO - Selected: C_STT_11062025.csv
+2025-06-11 19:45:02,921 - INFO - Found report: C_STT_IND_11062025.csv
+2025-06-11 19:45:04,192 - INFO - Selected: C_STT_IND_11062025.csv
+2025-06-11 19:45:04,233 - INFO - Found report: Daily_Settlement_Statistics_11062025.doc
+2025-06-11 19:45:05,398 - INFO - Selected: Daily_Settlement_Statistics_11062025.doc
+2025-06-11 19:45:05,427 - INFO - Found report: CSQR_M2025109_11062025.csv
+2025-06-11 19:45:06,535 - INFO - Selected: CSQR_M2025109_11062025.csv
+2025-06-11 19:45:06,573 - INFO - Found report: sec_bhavdata_full_11062025.csv
+2025-06-11 19:45:07,927 - INFO - Selected: sec_bhavdata_full_11062025.csv
+2025-06-11 19:45:07,952 - INFO - Found report: CM_52_wk_High_low_11062025.csv
+2025-06-11 19:45:09,169 - INFO - Selected: CM_52_wk_High_low_11062025.csv
+2025-06-11 19:45:09,217 - INFO - Found report: sec_list_11062025.csv
+2025-06-11 19:45:10,744 - INFO - Selected: sec_list_11062025.csv
+2025-06-11 19:45:10,775 - INFO - Found report: CM_Latency_stats10062025.csv
+2025-06-11 19:45:12,119 - INFO - Selected: CM_Latency_stats10062025.csv
+2025-06-11 19:45:12,138 - INFO - Found report: circuit_11062025.csv
+2025-06-11 19:45:13,650 - INFO - Selected: circuit_11062025.csv
+2025-06-11 19:45:13,676 - INFO - Found report: FCM_INTRM_BC11062025.DAT
+2025-06-11 19:45:15,258 - INFO - Selected: FCM_INTRM_BC11062025.DAT
+2025-06-11 19:45:15,278 - INFO - Found report: BhavCopy_NSE_CM_0_0_0_20250611_F_0000.csv.zip
+2025-06-11 19:45:16,727 - INFO - Selected: BhavCopy_NSE_CM_0_0_0_20250611_F_0000.csv.zip
+2025-06-11 19:45:16,763 - INFO - Found report: REG_IND110625.csv
+2025-06-11 19:45:17,985 - INFO - Selected: REG_IND110625.csv
+2025-06-11 19:45:18,019 - INFO - Found report: REG1_IND110625.csv
+2025-06-11 19:45:19,295 - INFO - Selected: REG1_IND110625.csv
+2025-06-11 19:45:19,328 - INFO - Found report: NSE_CM_security_11062025.csv.gz
+2025-06-11 19:45:20,844 - INFO - Selected: NSE_CM_security_11062025.csv.gz
+2025-06-11 19:45:20,888 - INFO - Found report: PE_110625.csv
+2025-06-11 19:45:22,202 - INFO - Selected: PE_110625.csv
+2025-06-11 19:45:22,251 - INFO - Found report: sme110625.csv
+2025-06-11 19:45:23,426 - INFO - Selected: sme110625.csv
+2025-06-11 19:45:23,466 - INFO - Found report: sme_bands_complete_11062025.csv
+2025-06-11 19:45:24,951 - INFO - Selected: sme_bands_complete_11062025.csv
+2025-06-11 19:45:28,044 - INFO - Multi Download button clicked.
+2025-06-11 19:45:34,079 - INFO - (data_retrieval) In Extraction Process
+2025-06-11 19:45:34,079 - INFO - (data_retrieval) Extraction directory path: C:\NSE\nsefiles\110625
+2025-06-11 19:45:34,194 - INFO - All files downloaded and verified successfully.
+2025-06-11 19:45:34,960 - INFO - All duplicates handled successfully.
+2025-06-11 19:45:34,961 - INFO - All file successfully verified for duplicates
+2025-06-11 19:45:34,962 - INFO - moved file C:\NSE\nsefiles\110625\APPSEC_COLLVAL_11062025.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:34,962 - INFO - moved file C:\NSE\nsefiles\110625\AUB_2025109_11062025.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:34,962 - INFO - moved file C:\NSE\nsefiles\110625\BhavCopy_NSE_CM_0_0_0_20250611_F_0000.csv.zip to C:\NSE\nsefiles\110625\zip
+2025-06-11 19:45:34,967 - INFO - moved file C:\NSE\nsefiles\110625\circuit_11062025.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:34,969 - INFO - moved file C:\NSE\nsefiles\110625\CMVOLT_11062025.CSV to C:\NSE\nsefiles\110625\CSV
+2025-06-11 19:45:34,969 - INFO - moved file C:\NSE\nsefiles\110625\CM_52_wk_High_low_11062025.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:34,972 - INFO - moved file C:\NSE\nsefiles\110625\CM_Latency_stats10062025.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:34,972 - INFO - moved file C:\NSE\nsefiles\110625\corpbond110625.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:34,974 - INFO - moved file C:\NSE\nsefiles\110625\CSQR_M2025109_11062025.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:34,974 - INFO - moved file C:\NSE\nsefiles\110625\C_STT_11062025.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:34,976 - INFO - moved file C:\NSE\nsefiles\110625\C_STT_IND_11062025.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:34,976 - INFO - moved file C:\NSE\nsefiles\110625\C_VAR1_11062025_1.DAT to C:\NSE\nsefiles\110625\DAT
+2025-06-11 19:45:34,978 - INFO - moved file C:\NSE\nsefiles\110625\C_VAR1_11062025_2.DAT to C:\NSE\nsefiles\110625\DAT
+2025-06-11 19:45:34,982 - INFO - moved file C:\NSE\nsefiles\110625\C_VAR1_11062025_3.DAT to C:\NSE\nsefiles\110625\DAT
+2025-06-11 19:45:34,983 - INFO - moved file C:\NSE\nsefiles\110625\C_VAR1_11062025_4.DAT to C:\NSE\nsefiles\110625\DAT
+2025-06-11 19:45:34,983 - INFO - moved file C:\NSE\nsefiles\110625\C_VAR1_11062025_5.DAT to C:\NSE\nsefiles\110625\DAT
+2025-06-11 19:45:34,983 - INFO - moved file C:\NSE\nsefiles\110625\C_VAR1_11062025_6.DAT to C:\NSE\nsefiles\110625\DAT
+2025-06-11 19:45:34,983 - INFO - moved file C:\NSE\nsefiles\110625\Daily_Settlement_Statistics_11062025.doc to C:\NSE\nsefiles\110625\doc
+2025-06-11 19:45:34,990 - INFO - moved file C:\NSE\nsefiles\110625\eq_band_changes_11062025.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:34,990 - INFO - moved file C:\NSE\nsefiles\110625\FCM_INTRM_BC11062025.DAT to C:\NSE\nsefiles\110625\DAT
+2025-06-11 19:45:34,994 - INFO - moved file C:\NSE\nsefiles\110625\MA110625.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:34,994 - INFO - moved file C:\NSE\nsefiles\110625\MF_VAR_11062025.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:34,997 - INFO - moved file C:\NSE\nsefiles\110625\MTO_11062025.DAT to C:\NSE\nsefiles\110625\DAT
+2025-06-11 19:45:34,999 - INFO - moved file C:\NSE\nsefiles\110625\NSE_CM_security_11062025.csv.gz to C:\NSE\nsefiles\110625\gz
+2025-06-11 19:45:34,999 - INFO - moved file C:\NSE\nsefiles\110625\PE_110625.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:35,002 - INFO - moved file C:\NSE\nsefiles\110625\PR110625.zip to C:\NSE\nsefiles\110625\zip
+2025-06-11 19:45:35,002 - INFO - moved file C:\NSE\nsefiles\110625\REG1_IND110625.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:35,002 - INFO - moved file C:\NSE\nsefiles\110625\REG_IND110625.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:35,007 - INFO - moved file C:\NSE\nsefiles\110625\sec_bhavdata_full_11062025.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:35,009 - INFO - moved file C:\NSE\nsefiles\110625\sec_list_11062025.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:35,012 - INFO - moved file C:\NSE\nsefiles\110625\series_change.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:35,015 - INFO - moved file C:\NSE\nsefiles\110625\shortselling_11062025.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:35,015 - INFO - moved file C:\NSE\nsefiles\110625\sme110625.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:35,015 - INFO - moved file C:\NSE\nsefiles\110625\sme_bands_complete_11062025.csv to C:\NSE\nsefiles\110625\csv
+2025-06-11 19:45:35,015 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\APPSEC_COLLVAL_11062025.csv
+2025-06-11 19:45:35,082 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,082 - INFO - Column names are valid.
+2025-06-11 19:45:35,094 - INFO - Column '1' data type: integer
+2025-06-11 19:45:35,097 - INFO - Column 'AARTIPHARM' data type: string
+2025-06-11 19:45:35,098 - INFO - Column 'INE0LRU01027' data type: string
+2025-06-11 19:45:35,098 - INFO - Column '923.5' data type: floating
+2025-06-11 19:45:35,098 - INFO - Column '20' data type: floating
+2025-06-11 19:45:35,098 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,098 - INFO - No missing values or anomalies detected.
+2025-06-11 19:45:35,098 - INFO - CSV file is valid!
+2025-06-11 19:45:35,098 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\AUB_2025109_11062025.csv
+2025-06-11 19:45:35,133 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,133 - INFO - Column names are valid.
+2025-06-11 19:45:35,133 - INFO - Column 'Confirmed list of securities to be auctioned in A 2025109 to be held on Jun 11 2025.' data type: string
+2025-06-11 19:45:35,133 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,138 - INFO - No missing values or anomalies detected.
+2025-06-11 19:45:35,138 - INFO - CSV file is valid!
+2025-06-11 19:45:35,138 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\circuit_11062025.csv
+2025-06-11 19:45:35,159 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,160 - INFO - Column names are valid.
+2025-06-11 19:45:35,160 - INFO - Column '110625' data type: empty
+2025-06-11 19:45:35,160 - INFO - Column '120625' data type: empty
+2025-06-11 19:45:35,163 - INFO - Column '2514140' data type: empty
+2025-06-11 19:45:35,165 - INFO - Column '251415' data type: empty
+2025-06-11 19:45:35,167 - INFO - Column '377120' data type: empty
+2025-06-11 19:45:35,168 - INFO - Column '502830' data type: empty
+2025-06-11 19:45:35,168 - INFO - Column 'Unnamed: 6' data type: empty
+2025-06-11 19:45:35,168 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,171 - INFO - No missing values or anomalies detected.
+2025-06-11 19:45:35,171 - INFO - CSV file is valid!
+2025-06-11 19:45:35,171 - ERROR - Invalid file format. Expected .csv, got: C:\NSE\nsefiles\110625\csv\CMVOLT_11062025.CSV
+2025-06-11 19:45:35,171 - WARNING - Validation failed for: CMVOLT_11062025.CSV
+2025-06-11 19:45:35,171 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\CM_52_wk_High_low_11062025.csv
+2025-06-11 19:45:35,196 - ERROR - Error parsing CSV file: Error tokenizing data. C error: Expected 1 fields in line 3, saw 6
+
+2025-06-11 19:45:35,197 - WARNING - Validation failed for: CM_52_wk_High_low_11062025.csv
+2025-06-11 19:45:35,197 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\CM_Latency_stats10062025.csv
+2025-06-11 19:45:35,213 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,213 - INFO - Column names are valid.
+2025-06-11 19:45:35,217 - INFO - Column 'Latency in microseconds observed for '10-JUN-2025'' data type: string
+2025-06-11 19:45:35,217 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,220 - WARNING - Column 'Latency in microseconds observed for '10-JUN-2025'' has 1 missing values.
+2025-06-11 19:45:35,220 - WARNING - Validation failed for: CM_Latency_stats10062025.csv
+2025-06-11 19:45:35,222 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\corpbond110625.csv
+2025-06-11 19:45:35,247 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,247 - INFO - Column names are valid.
+2025-06-11 19:45:35,250 - INFO - Column 'MARKET' data type: string
+2025-06-11 19:45:35,251 - INFO - Column 'SERIES' data type: string
+2025-06-11 19:45:35,251 - INFO - Column 'SYMBOL' data type: string
+2025-06-11 19:45:35,251 - INFO - Column 'SECURITY' data type: string
+2025-06-11 19:45:35,251 - INFO - Column 'PREV_CL_PR' data type: floating
+2025-06-11 19:45:35,251 - INFO - Column 'OPEN_PRICE' data type: floating
+2025-06-11 19:45:35,253 - INFO - Column 'HIGH_PRICE' data type: floating
+2025-06-11 19:45:35,254 - INFO - Column 'LOW_PRICE' data type: floating
+2025-06-11 19:45:35,254 - INFO - Column 'CLOSE_PRICE' data type: floating
+2025-06-11 19:45:35,255 - INFO - Column 'NET_TRDVAL' data type: floating
+2025-06-11 19:45:35,255 - INFO - Column 'NET_TRDQTY' data type: integer
+2025-06-11 19:45:35,255 - INFO - Column 'CORP_IND' data type: string
+2025-06-11 19:45:35,255 - INFO - Column 'TRADES' data type: integer
+2025-06-11 19:45:35,255 - INFO - Column 'HI_52_WK' data type: floating
+2025-06-11 19:45:35,255 - INFO - Column 'LO_52_WK' data type: floating
+2025-06-11 19:45:35,255 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,260 - WARNING - Column 'SERIES' has 6 missing values.
+2025-06-11 19:45:35,260 - WARNING - Validation failed for: corpbond110625.csv
+2025-06-11 19:45:35,262 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\CSQR_M2025109_11062025.csv
+2025-06-11 19:45:35,310 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,310 - INFO - Column names are valid.
+2025-06-11 19:45:35,310 - INFO - Column '505163' data type: string
+2025-06-11 19:45:35,310 - INFO - Column 'EQ' data type: string
+2025-06-11 19:45:35,316 - INFO - Column 'M' data type: string
+2025-06-11 19:45:35,316 - INFO - Column '2025109' data type: integer
+2025-06-11 19:45:35,316 - INFO - Column '1466.22' data type: floating
+2025-06-11 19:45:35,316 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,321 - INFO - No missing values or anomalies detected.
+2025-06-11 19:45:35,322 - INFO - CSV file is valid!
+2025-06-11 19:45:35,323 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\C_STT_11062025.csv
+2025-06-11 19:45:35,363 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,377 - INFO - Column names are valid.
+2025-06-11 19:45:35,377 - INFO - Column 'SYMBOL' data type: string
+2025-06-11 19:45:35,377 - INFO - Column 'SERIES' data type: string
+2025-06-11 19:45:35,377 - INFO - Column 'DESCRIPTION' data type: string
+2025-06-11 19:45:35,377 - INFO - Column 'ISIN                                                                                                                        ' data type: string
+2025-06-11 19:45:35,381 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,381 - WARNING - Column 'SERIES' has 20 missing values.
+2025-06-11 19:45:35,385 - WARNING - Validation failed for: C_STT_11062025.csv
+2025-06-11 19:45:35,385 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\C_STT_IND_11062025.csv
+2025-06-11 19:45:35,470 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,470 - INFO - Column names are valid.
+2025-06-11 19:45:35,470 - INFO - Column 'SYMBOL' data type: string
+2025-06-11 19:45:35,470 - INFO - Column 'SERIES' data type: string
+2025-06-11 19:45:35,470 - INFO - Column 'ISIN' data type: string
+2025-06-11 19:45:35,470 - INFO - Column 'Sec Desc' data type: string
+2025-06-11 19:45:35,470 - INFO - Column 'STT Indicator                                                                                                             ' data type: string
+2025-06-11 19:45:35,475 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,475 - INFO - No missing values or anomalies detected.
+2025-06-11 19:45:35,475 - INFO - CSV file is valid!
+2025-06-11 19:45:35,475 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\eq_band_changes_11062025.csv
+2025-06-11 19:45:35,484 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,484 - INFO - Column names are valid.
+2025-06-11 19:45:35,484 - INFO - Column 'Sr. No' data type: integer
+2025-06-11 19:45:35,484 - INFO - Column 'Symbol' data type: string
+2025-06-11 19:45:35,492 - INFO - Column 'Series' data type: string
+2025-06-11 19:45:35,492 - INFO - Column 'Security Name' data type: string
+2025-06-11 19:45:35,492 - INFO - Column 'From' data type: integer
+2025-06-11 19:45:35,492 - INFO - Column 'To' data type: integer
+2025-06-11 19:45:35,492 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,492 - INFO - No missing values or anomalies detected.
+2025-06-11 19:45:35,492 - INFO - CSV file is valid!
+2025-06-11 19:45:35,492 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\MA110625.csv
+2025-06-11 19:45:35,509 - ERROR - Error parsing CSV file: Error tokenizing data. C error: Expected 2 fields in line 4, saw 3
+
+2025-06-11 19:45:35,509 - WARNING - Validation failed for: MA110625.csv
+2025-06-11 19:45:35,509 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\MF_VAR_11062025.csv
+2025-06-11 19:45:35,551 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,553 - INFO - Column names are valid.
+2025-06-11 19:45:35,554 - INFO - Column 'ISIN' data type: string
+2025-06-11 19:45:35,554 - INFO - Column 'SYMBOL' data type: string
+2025-06-11 19:45:35,554 - INFO - Column 'SERIES' data type: string
+2025-06-11 19:45:35,554 - INFO - Column 'TYPE' data type: string
+2025-06-11 19:45:35,554 - INFO - Column 'HAIRCUT' data type: floating
+2025-06-11 19:45:35,554 - INFO - Column 'NAV' data type: floating
+2025-06-11 19:45:35,554 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,557 - INFO - No missing values or anomalies detected.
+2025-06-11 19:45:35,557 - INFO - CSV file is valid!
+2025-06-11 19:45:35,557 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\PE_110625.csv
+2025-06-11 19:45:35,585 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,587 - INFO - Column names are valid.
+2025-06-11 19:45:35,587 - INFO - Column 'SYMBOL' data type: string
+2025-06-11 19:45:35,587 - INFO - Column 'SYMBOL P/E' data type: floating
+2025-06-11 19:45:35,587 - INFO - Column 'ADJUSTED P/E' data type: floating
+2025-06-11 19:45:35,587 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,590 - WARNING - Column 'SYMBOL P/E' has 14 missing values.
+2025-06-11 19:45:35,590 - WARNING - Column 'ADJUSTED P/E' has 34 missing values.
+2025-06-11 19:45:35,590 - WARNING - Validation failed for: PE_110625.csv
+2025-06-11 19:45:35,590 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\REG1_IND110625.csv
+2025-06-11 19:45:35,638 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,640 - INFO - Column names are valid.
+2025-06-11 19:45:35,640 - INFO - Column 'ScripCode' data type: floating
+2025-06-11 19:45:35,640 - INFO - Column 'Symbol' data type: string
+2025-06-11 19:45:35,640 - INFO - Column 'Nse Exclusive' data type: string
+2025-06-11 19:45:35,640 - INFO - Column 'Status' data type: string
+2025-06-11 19:45:35,640 - INFO - Column 'Series' data type: string
+2025-06-11 19:45:35,640 - INFO - Column 'GSM' data type: integer
+2025-06-11 19:45:35,643 - INFO - Column 'Long_Term_Additional_Surveillance_Measure (Long Term ASM)' data type: integer
+2025-06-11 19:45:35,643 - INFO - Column 'Unsolicited_SMS' data type: integer
+2025-06-11 19:45:35,643 - INFO - Column 'Insolvency_Resolution_Process(IRP)' data type: integer
+2025-06-11 19:45:35,643 - INFO - Column 'Short_Term_Additional_Surveillance_Measure (Short Term ASM)' data type: integer
+2025-06-11 19:45:35,643 - INFO - Column 'Default' data type: integer
+2025-06-11 19:45:35,643 - INFO - Column 'ICA' data type: integer
+2025-06-11 19:45:35,643 - INFO - Column 'Filler4' data type: floating
+2025-06-11 19:45:35,643 - INFO - Column 'Filler5' data type: floating
+2025-06-11 19:45:35,643 - INFO - Column 'Pledge' data type: integer
+2025-06-11 19:45:35,648 - INFO - Column 'Add-on_PB' data type: integer
+2025-06-11 19:45:35,648 - INFO - Column 'Total Pledge' data type: integer
+2025-06-11 19:45:35,648 - INFO - Column 'Social Media Platforms' data type: integer
+2025-06-11 19:45:35,648 - INFO - Column 'ESM' data type: integer
+2025-06-11 19:45:35,648 - INFO - Column 'Loss making' data type: integer
+2025-06-11 19:45:35,648 - INFO - Column 'The Overall encumbered share in the scrip is more than 50 Percent.' data type: integer
+2025-06-11 19:45:35,648 - INFO - Column 'Under BZ/SZ Series' data type: integer
+2025-06-11 19:45:35,648 - INFO - Column 'Company has failed to pay Annual listing fee' data type: integer
+2025-06-11 19:45:35,648 - INFO - Column 'Filler12' data type: floating
+2025-06-11 19:45:35,648 - INFO - Column 'Derivative contracts in the scrip to be moved out of F and O' data type: integer
+2025-06-11 19:45:35,648 - INFO - Column 'Scrip PE is greater than 50 (4 trailing quarters)' data type: integer
+2025-06-11 19:45:35,648 - INFO - Column 'EPS in the scrip is zero (4 trailing quarters)' data type: integer
+2025-06-11 19:45:35,648 - INFO - Column 'Less than 100 unique PAN traded in previous 30 days' data type: integer
+2025-06-11 19:45:35,648 - INFO - Column 'Mandatory Market making period in SME scrip is over' data type: integer
+2025-06-11 19:45:35,648 - INFO - Column 'SME scrip is not regularly traded' data type: integer
+2025-06-11 19:45:35,648 - INFO - Column 'Close to Close price movement greater than 25perc in previous 5 trading days' data type: integer
+2025-06-11 19:45:35,648 - INFO - Column 'Close to Close price movement greater than 40perc in previous 15 trading days' data type: integer
+2025-06-11 19:45:35,656 - INFO - Column 'Close to Close price movement greater than 100perc in previous 60 trading Days' data type: integer
+2025-06-11 19:45:35,656 - INFO - Column 'Close to Close price movement greater than 25perc in previous 15 Days' data type: integer
+2025-06-11 19:45:35,656 - INFO - Column 'Close to Close price movement greater than 50perc in previous 1 month' data type: integer
+2025-06-11 19:45:35,656 - INFO - Column 'Close to Close price movement greater than 90perc in previous 3 months' data type: integer
+2025-06-11 19:45:35,658 - INFO - Column 'Close to Close price movement greater than 25perc in previous 1 month' data type: integer
+2025-06-11 19:45:35,658 - INFO - Column 'Close to Close price movement greater than 50perc in previous 3 months' data type: integer
+2025-06-11 19:45:35,658 - INFO - Column 'Close to Close price movement greater than 200perc in previous 365 Days' data type: integer
+2025-06-11 19:45:35,658 - INFO - Column 'Close to Close price movement greater than 75perc in previous 6 months' data type: integer
+2025-06-11 19:45:35,658 - INFO - Column 'Close to Close price movement greater than 100perc in previous 365 days' data type: integer
+2025-06-11 19:45:35,658 - INFO - Column 'High low price variation greater than 75perc in previous 1 month' data type: integer
+2025-06-11 19:45:35,658 - INFO - Column 'High low price variation greater than 150perc in previous 3 months' data type: integer
+2025-06-11 19:45:35,658 - INFO - Column 'High low price variation greater than 75perc in previous 3 months' data type: integer
+2025-06-11 19:45:35,658 - INFO - Column 'High low price variation greater than 300perc in previous 365 Days' data type: integer
+2025-06-11 19:45:35,663 - INFO - Column 'High low price variation greater than 100perc in previous 6 months' data type: integer
+2025-06-11 19:45:35,663 - INFO - Column 'High low price variation greater than 200perc in previous 365 Days' data type: integer
+2025-06-11 19:45:35,663 - INFO - Column 'High low price variation greater than 150perc in previous 12 months' data type: integer
+2025-06-11 19:45:35,663 - INFO - Column 'Filler17' data type: floating
+2025-06-11 19:45:35,663 - INFO - Column 'Filler18' data type: floating
+2025-06-11 19:45:35,663 - INFO - Column 'Filler19' data type: floating
+2025-06-11 19:45:35,666 - INFO - Column 'Filler20' data type: floating
+2025-06-11 19:45:35,667 - INFO - Column 'Filler21' data type: floating
+2025-06-11 19:45:35,667 - INFO - Column 'Filler22' data type: floating
+2025-06-11 19:45:35,667 - INFO - Column 'Filler23' data type: floating
+2025-06-11 19:45:35,667 - INFO - Column 'Filler24' data type: floating
+2025-06-11 19:45:35,667 - INFO - Column 'Filler25' data type: floating
+2025-06-11 19:45:35,669 - INFO - Column 'Filler26' data type: floating
+2025-06-11 19:45:35,669 - INFO - Column 'Filler27' data type: floating
+2025-06-11 19:45:35,669 - INFO - Column 'Filler28' data type: floating
+2025-06-11 19:45:35,670 - INFO - Column 'Filler29' data type: floating
+2025-06-11 19:45:35,670 - INFO - Column 'Filler30' data type: floating
+2025-06-11 19:45:35,670 - INFO - Column 'Filler31' data type: floating
+2025-06-11 19:45:35,670 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,670 - WARNING - Column 'ScripCode' has 2557 missing values.
+2025-06-11 19:45:35,670 - WARNING - Column 'Filler4' has 2557 missing values.
+2025-06-11 19:45:35,670 - WARNING - Column 'Filler5' has 2557 missing values.
+2025-06-11 19:45:35,674 - WARNING - Column 'Filler12' has 2557 missing values.
+2025-06-11 19:45:35,674 - WARNING - Column 'Filler17' has 2557 missing values.
+2025-06-11 19:45:35,674 - WARNING - Column 'Filler18' has 2557 missing values.
+2025-06-11 19:45:35,674 - WARNING - Column 'Filler19' has 2557 missing values.
+2025-06-11 19:45:35,676 - WARNING - Column 'Filler20' has 2557 missing values.
+2025-06-11 19:45:35,676 - WARNING - Column 'Filler21' has 2557 missing values.
+2025-06-11 19:45:35,676 - WARNING - Column 'Filler22' has 2557 missing values.
+2025-06-11 19:45:35,676 - WARNING - Column 'Filler23' has 2557 missing values.
+2025-06-11 19:45:35,676 - WARNING - Column 'Filler24' has 2557 missing values.
+2025-06-11 19:45:35,676 - WARNING - Column 'Filler25' has 2557 missing values.
+2025-06-11 19:45:35,676 - WARNING - Column 'Filler26' has 2557 missing values.
+2025-06-11 19:45:35,676 - WARNING - Column 'Filler27' has 2557 missing values.
+2025-06-11 19:45:35,676 - WARNING - Column 'Filler28' has 2557 missing values.
+2025-06-11 19:45:35,676 - WARNING - Column 'Filler29' has 2557 missing values.
+2025-06-11 19:45:35,676 - WARNING - Column 'Filler30' has 2557 missing values.
+2025-06-11 19:45:35,676 - WARNING - Column 'Filler31' has 2557 missing values.
+2025-06-11 19:45:35,676 - WARNING - Validation failed for: REG1_IND110625.csv
+2025-06-11 19:45:35,676 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\REG_IND110625.csv
+2025-06-11 19:45:35,698 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,698 - INFO - Column names are valid.
+2025-06-11 19:45:35,698 - INFO - Column 'ScripCode' data type: floating
+2025-06-11 19:45:35,698 - INFO - Column 'Symbol' data type: string
+2025-06-11 19:45:35,698 - INFO - Column 'Nse Exclusive' data type: string
+2025-06-11 19:45:35,698 - INFO - Column 'Status' data type: string
+2025-06-11 19:45:35,698 - INFO - Column 'Series' data type: string
+2025-06-11 19:45:35,698 - INFO - Column 'GSM' data type: integer
+2025-06-11 19:45:35,698 - INFO - Column 'Long_Term_Additional_Surveillance_Measure (Long Term ASM)' data type: integer
+2025-06-11 19:45:35,707 - INFO - Column 'Unsolicited_SMS' data type: integer
+2025-06-11 19:45:35,707 - INFO - Column 'Insolvency_Resolution_Process(IRP)' data type: integer
+2025-06-11 19:45:35,707 - INFO - Column 'Short_Term_Additional_Surveillance_Measure (Short Term ASM)' data type: integer
+2025-06-11 19:45:35,707 - INFO - Column 'Default' data type: integer
+2025-06-11 19:45:35,707 - INFO - Column 'ICA' data type: integer
+2025-06-11 19:45:35,707 - INFO - Column 'Filler4' data type: floating
+2025-06-11 19:45:35,708 - INFO - Column 'Filler5' data type: floating
+2025-06-11 19:45:35,709 - INFO - Column 'Pledge' data type: integer
+2025-06-11 19:45:35,709 - INFO - Column 'Add-on_PB' data type: integer
+2025-06-11 19:45:35,709 - INFO - Column 'Total Pledge' data type: integer
+2025-06-11 19:45:35,709 - INFO - Column 'Social Media Platforms' data type: integer
+2025-06-11 19:45:35,709 - INFO - Column 'ESM' data type: integer
+2025-06-11 19:45:35,709 - INFO - Column 'Loss making' data type: integer
+2025-06-11 19:45:35,709 - INFO - Column 'The Overall encumbered share in the scrip is more than 50 Percent.' data type: integer
+2025-06-11 19:45:35,709 - INFO - Column 'Under BZ/SZ Series' data type: integer
+2025-06-11 19:45:35,709 - INFO - Column 'Company has failed to pay Annual listing fee' data type: integer
+2025-06-11 19:45:35,709 - INFO - Column 'Filler12' data type: floating
+2025-06-11 19:45:35,709 - INFO - Column 'Derivative contracts in the scrip to be moved out of F and O' data type: integer
+2025-06-11 19:45:35,709 - INFO - Column 'Filler13' data type: floating
+2025-06-11 19:45:35,709 - INFO - Column 'Filler14' data type: floating
+2025-06-11 19:45:35,715 - INFO - Column 'Filler15' data type: floating
+2025-06-11 19:45:35,715 - INFO - Column 'Filler16' data type: floating
+2025-06-11 19:45:35,715 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,715 - WARNING - Column 'ScripCode' has 2557 missing values.
+2025-06-11 19:45:35,715 - WARNING - Column 'Filler4' has 2557 missing values.
+2025-06-11 19:45:35,715 - WARNING - Column 'Filler5' has 2557 missing values.
+2025-06-11 19:45:35,715 - WARNING - Column 'Filler12' has 2557 missing values.
+2025-06-11 19:45:35,719 - WARNING - Column 'Filler13' has 2557 missing values.
+2025-06-11 19:45:35,719 - WARNING - Column 'Filler14' has 2557 missing values.
+2025-06-11 19:45:35,719 - WARNING - Column 'Filler15' has 2557 missing values.
+2025-06-11 19:45:35,719 - WARNING - Column 'Filler16' has 2557 missing values.
+2025-06-11 19:45:35,719 - WARNING - Validation failed for: REG_IND110625.csv
+2025-06-11 19:45:35,719 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\sec_bhavdata_full_11062025.csv
+2025-06-11 19:45:35,747 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,749 - INFO - Column names are valid.
+2025-06-11 19:45:35,749 - INFO - Column 'SYMBOL' data type: string
+2025-06-11 19:45:35,750 - INFO - Column ' SERIES' data type: string
+2025-06-11 19:45:35,750 - INFO - Column ' DATE1' data type: string
+2025-06-11 19:45:35,750 - INFO - Column ' PREV_CLOSE' data type: floating
+2025-06-11 19:45:35,750 - INFO - Column ' OPEN_PRICE' data type: floating
+2025-06-11 19:45:35,750 - INFO - Column ' HIGH_PRICE' data type: floating
+2025-06-11 19:45:35,750 - INFO - Column ' LOW_PRICE' data type: floating
+2025-06-11 19:45:35,750 - INFO - Column ' LAST_PRICE' data type: floating
+2025-06-11 19:45:35,750 - INFO - Column ' CLOSE_PRICE' data type: floating
+2025-06-11 19:45:35,750 - INFO - Column ' AVG_PRICE' data type: floating
+2025-06-11 19:45:35,750 - INFO - Column ' TTL_TRD_QNTY' data type: integer
+2025-06-11 19:45:35,750 - INFO - Column ' TURNOVER_LACS' data type: floating
+2025-06-11 19:45:35,750 - INFO - Column ' NO_OF_TRADES' data type: integer
+2025-06-11 19:45:35,750 - INFO - Column ' DELIV_QTY' data type: string
+2025-06-11 19:45:35,750 - INFO - Column ' DELIV_PER' data type: string
+2025-06-11 19:45:35,750 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,755 - INFO - No missing values or anomalies detected.
+2025-06-11 19:45:35,755 - INFO - CSV file is valid!
+2025-06-11 19:45:35,755 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\sec_list_11062025.csv
+2025-06-11 19:45:35,780 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,780 - INFO - Column names are valid.
+2025-06-11 19:45:35,780 - INFO - Column 'Symbol' data type: string
+2025-06-11 19:45:35,788 - INFO - Column 'Series' data type: string
+2025-06-11 19:45:35,788 - INFO - Column 'Security Name' data type: string
+2025-06-11 19:45:35,788 - INFO - Column 'Band' data type: string
+2025-06-11 19:45:35,788 - INFO - Column 'Remarks' data type: string
+2025-06-11 19:45:35,791 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,791 - INFO - No missing values or anomalies detected.
+2025-06-11 19:45:35,792 - INFO - CSV file is valid!
+2025-06-11 19:45:35,792 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\series_change.csv
+2025-06-11 19:45:35,805 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,805 - INFO - Column names are valid.
+2025-06-11 19:45:35,805 - INFO - Column 'Symbol' data type: string
+2025-06-11 19:45:35,805 - INFO - Column 'Security' data type: string
+2025-06-11 19:45:35,805 - INFO - Column 'From Series' data type: string
+2025-06-11 19:45:35,813 - INFO - Column 'To Series' data type: string
+2025-06-11 19:45:35,814 - INFO - Column 'Change Date' data type: string
+2025-06-11 19:45:35,814 - INFO - Column 'Remarks' data type: string
+2025-06-11 19:45:35,814 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,817 - INFO - No missing values or anomalies detected.
+2025-06-11 19:45:35,817 - INFO - CSV file is valid!
+2025-06-11 19:45:35,817 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\shortselling_11062025.csv
+2025-06-11 19:45:35,829 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,837 - INFO - Column names are valid.
+2025-06-11 19:45:35,838 - INFO - Column 'Security Name' data type: string
+2025-06-11 19:45:35,839 - INFO - Column 'Symbol Name' data type: string
+2025-06-11 19:45:35,839 - INFO - Column 'Trade Date' data type: string
+2025-06-11 19:45:35,840 - INFO - Column 'Quantity' data type: integer
+2025-06-11 19:45:35,840 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,840 - INFO - No missing values or anomalies detected.
+2025-06-11 19:45:35,842 - INFO - CSV file is valid!
+2025-06-11 19:45:35,843 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\sme110625.csv
+2025-06-11 19:45:35,863 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,863 - INFO - Column names are valid.
+2025-06-11 19:45:35,863 - INFO - Column 'MARKET' data type: string
+2025-06-11 19:45:35,871 - INFO - Column 'SERIES' data type: string
+2025-06-11 19:45:35,873 - INFO - Column 'SYMBOL' data type: string
+2025-06-11 19:45:35,873 - INFO - Column 'SECURITY' data type: string
+2025-06-11 19:45:35,874 - INFO - Column 'PREV_CL_PR' data type: floating
+2025-06-11 19:45:35,874 - INFO - Column 'OPEN_PRICE' data type: floating
+2025-06-11 19:45:35,874 - INFO - Column 'HIGH_PRICE' data type: floating
+2025-06-11 19:45:35,876 - INFO - Column 'LOW_PRICE' data type: floating
+2025-06-11 19:45:35,877 - INFO - Column 'CLOSE_PRICE' data type: floating
+2025-06-11 19:45:35,877 - INFO - Column 'NET_TRDVAL' data type: floating
+2025-06-11 19:45:35,877 - INFO - Column 'NET_TRDQTY' data type: integer
+2025-06-11 19:45:35,877 - INFO - Column 'CORP_IND' data type: string
+2025-06-11 19:45:35,880 - INFO - Column 'HI_52_WK' data type: floating
+2025-06-11 19:45:35,880 - INFO - Column 'LO_52_WK' data type: floating
+2025-06-11 19:45:35,880 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,880 - INFO - No missing values or anomalies detected.
+2025-06-11 19:45:35,882 - INFO - CSV file is valid!
+2025-06-11 19:45:35,882 - INFO - File found and is a CSV: C:\NSE\nsefiles\110625\csv\sme_bands_complete_11062025.csv
+2025-06-11 19:45:35,921 - INFO - CSV loaded successfully.
+2025-06-11 19:45:35,921 - INFO - Column names are valid.
+2025-06-11 19:45:35,921 - INFO - Column 'Symbol' data type: string
+2025-06-11 19:45:35,921 - INFO - Column 'Series' data type: string
+2025-06-11 19:45:35,921 - INFO - Column 'Name' data type: string
+2025-06-11 19:45:35,921 - INFO - Column 'Band' data type: integer
+2025-06-11 19:45:35,921 - INFO - Column 'Remarks' data type: string
+2025-06-11 19:45:35,921 - INFO - All columns have consistent data types.
+2025-06-11 19:45:35,927 - INFO - No missing values or anomalies detected.
+2025-06-11 19:45:35,927 - INFO - CSV file is valid!
+2025-06-11 19:47:02,537 - INFO - Added job "Re-added Report Automation at 2025-01-24 19:37:00" to job store "default"
+2025-06-11 19:47:02,537 - INFO - Added job "Re-added Report Automation at 2025-01-24 19:38:00" to job store "default"
+2025-06-11 19:47:02,537 - INFO - Removed job 2025-01-24 19:37:00
+2025-06-11 19:47:02,537 - WARNING - Run time of job "Re-added Report Automation at 2025-01-24 19:37:00 (trigger: date[2025-01-24 19:37:00 IST], next run at: 2025-01-24 19:37:00 IST)" was missed by 138 days, 0:10:02.537960
+2025-06-11 19:47:02,575 - WARNING - Run time of job "Re-added Report Automation at 2025-01-24 19:38:00 (trigger: date[2025-01-24 19:38:00 IST], next run at: 2025-01-24 19:38:00 IST)" was missed by 138 days, 0:09:02.575652
+2025-06-11 19:47:02,575 - INFO - Removed job 2025-01-24 19:38:00
+2026-01-03 00:25:33,288 - INFO - Scheduler started
+2026-01-03 00:26:29,473 - INFO - Added job "Re-added Report Automation at 2025-01-24 19:37:00" to job store "default"
+2026-01-03 00:26:29,473 - INFO - Added job "Re-added Report Automation at 2025-01-24 19:38:00" to job store "default"
+2026-01-03 00:26:29,473 - WARNING - Run time of job "Re-added Report Automation at 2025-01-24 19:37:00 (trigger: date[2025-01-24 19:37:00 IST], next run at: 2025-01-24 19:37:00 IST)" was missed by 343 days, 4:49:29.473583
+2026-01-03 00:26:29,473 - INFO - Removed job 2025-01-24 19:37:00
+2026-01-03 00:26:29,482 - INFO - Removed job 2025-01-24 19:38:00
+2026-01-03 00:26:29,482 - WARNING - Run time of job "Re-added Report Automation at 2025-01-24 19:38:00 (trigger: date[2025-01-24 19:38:00 IST], next run at: 2025-01-24 19:38:00 IST)" was missed by 343 days, 4:48:29.482113
+2026-01-03 00:28:00,021 - INFO - Added job "Re-added Report Automation at 2025-01-24 19:37:00" to job store "default"
+2026-01-03 00:28:00,024 - INFO - Added job "Re-added Report Automation at 2025-01-24 19:38:00" to job store "default"
+2026-01-03 00:28:00,024 - INFO - Removed job 2025-01-24 19:37:00
+2026-01-03 00:28:00,027 - WARNING - Run time of job "Re-added Report Automation at 2025-01-24 19:37:00 (trigger: date[2025-01-24 19:37:00 IST], next run at: 2025-01-24 19:37:00 IST)" was missed by 343 days, 4:51:00.027138
+2026-01-03 00:28:00,029 - WARNING - Run time of job "Re-added Report Automation at 2025-01-24 19:38:00 (trigger: date[2025-01-24 19:38:00 IST], next run at: 2025-01-24 19:38:00 IST)" was missed by 343 days, 4:50:00.029759
+2026-01-03 00:28:00,032 - INFO - Removed job 2025-01-24 19:38:00
+2026-01-03 00:38:57,326 - INFO - Scheduler started
+2026-01-04 18:37:50,711 - INFO - Scheduler started
+2026-01-04 18:38:35,122 - INFO - Scheduler started
+2026-01-04 18:39:45,935 - INFO - Added job "Re-added Report Automation at 2025-01-24 19:37:00" to job store "default"
+2026-01-04 18:39:45,937 - INFO - Added job "Re-added Report Automation at 2025-01-24 19:38:00" to job store "default"
+2026-01-04 18:39:45,939 - WARNING - Run time of job "Re-added Report Automation at 2025-01-24 19:37:00 (trigger: date[2025-01-24 19:37:00 IST], next run at: 2025-01-24 19:37:00 IST)" was missed by 344 days, 23:02:45.939280
+2026-01-04 18:39:45,939 - INFO - Removed job 2025-01-24 19:37:00
+2026-01-04 18:39:45,943 - INFO - Removed job 2025-01-24 19:38:00
+2026-01-04 18:39:45,943 - WARNING - Run time of job "Re-added Report Automation at 2025-01-24 19:38:00 (trigger: date[2025-01-24 19:38:00 IST], next run at: 2025-01-24 19:38:00 IST)" was missed by 344 days, 23:01:45.943296
+2026-01-19 14:42:30,956 - WARNING - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+2026-01-19 14:42:30,956 - WARNING - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2026-01-19 14:42:45,385 - INFO - Scheduler started
+2026-01-19 14:43:21,055 - INFO - Added job "Re-added Report Automation at 2025-01-24 19:37:00" to job store "default"
+2026-01-19 14:43:21,062 - INFO - Added job "Re-added Report Automation at 2025-01-24 19:38:00" to job store "default"
+2026-01-19 14:43:21,064 - WARNING - Run time of job "Re-added Report Automation at 2025-01-24 19:37:00 (trigger: date[2025-01-24 19:37:00 IST], next run at: 2025-01-24 19:37:00 IST)" was missed by 359 days, 19:06:21.064952
+2026-01-19 14:43:21,066 - INFO - Removed job 2025-01-24 19:37:00
+2026-01-19 14:43:21,075 - INFO - Removed job 2025-01-24 19:38:00
+2026-01-19 14:43:21,075 - WARNING - Run time of job "Re-added Report Automation at 2025-01-24 19:38:00 (trigger: date[2025-01-24 19:38:00 IST], next run at: 2025-01-24 19:38:00 IST)" was missed by 359 days, 19:05:21.075004
