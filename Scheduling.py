@@ -5,7 +5,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.date import DateTrigger
 from main import main as m
 # File to store schedules
-SCHEDULES_FILE = "C:\\NSE\\schedulers.txt"
+SCHEDULES_FILE = "C:\\Projects\\NSEBOT\\schedulers.txt"
 
 # Initialize a Background Scheduler
 scheduler = BackgroundScheduler()
@@ -45,8 +45,11 @@ def remove_schedule(scheduled_time):
 def run_automation_task(scheduled_time):
     job_status[scheduled_time] = "In Progress"
     print(f"Task started at {datetime.now()} for schedule: {scheduled_time}")
-    m()
-    time.sleep(2)  # Simulate some processing
+    import main
+    import importlib
+    importlib.reload(main)
+    main.main()
+    time.sleep(2)
     job_status[scheduled_time] = "Completed"
     print("Report automation completed!")
     remove_schedule(scheduled_time)

@@ -22,7 +22,7 @@ class FilePath:
             if not os.path.exists(self.file_path):
                 logging.error(f"File not found: {self.file_path}")
                 return False
-            if not self.file_path.endswith('.csv'):
+            if not self.file_path.lower().endswith('.csv'):
                 logging.error(f"Invalid file format. Expected .csv, got: {self.file_path}")
                 return False
             logging.info(f"File found and is a CSV: {self.file_path}")

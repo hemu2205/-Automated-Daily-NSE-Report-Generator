@@ -305,7 +305,7 @@ elif page == "Schedule Automation":
         st.rerun()
 elif page == "Logs":
      st.title("Application Logs")
-     log_file_path = "C:\\NSE\\nse_report_downloader.log" # Path to the log file
+     log_file_path = "C:\\Projects\\NSEBOT\\nse_report_downloader.log" # Path to the log file
 
      if os.path.exists(log_file_path):
         st.subheader("Latest Logs")

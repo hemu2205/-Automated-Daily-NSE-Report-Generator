@@ -12,17 +12,20 @@ logging.basicConfig(
 )
 
 def segregate(directory):
-    files = os.listdir(directory)
-    if not os.listdir(directory):
+    if not os.path.exists(directory) or not os.listdir(directory):
         return False
+    files = os.listdir(directory)
     for i in files:
-        current = os.path.join(directory,i)
-        target = os.path.join(directory,i.split('.')[-1])
+        current = os.path.join(directory, i)
+        if os.path.isdir(current):
+            continue
+        ext = i.split('.')[-1].lower() if '.' in i else 'other'
+        target = os.path.join(directory, ext)
+        os.makedirs(target, exist_ok=True)
         try:
-            os.mkdir(target)
-            shutil.move(current,target)
+            dest_file = os.path.join(target, i)
+            shutil.move(current, dest_file)
             logging.info(f"moved file {current} to {target}")
-        except OSError:
-            shutil.move(current,target)
-            logging.info(f"moved file {current} to {target}")
-    return os.path.join(directory,"csv")
+        except Exception as e:
+            logging.warning(f"Could not move {current}: {e}")
+    return os.path.join(directory, "csv")

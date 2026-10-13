@@ -8,7 +8,7 @@ import os
 # Function to get the receiver's email from the configuration file
 def get_receiver_add():
     try:
-        with open("C:\\NSE\\config.txt") as f:
+        with open("C:\\Projects\\NSEBOT\\config.txt") as f:
             email = f.read().strip()  
             if email:
                 return email
@@ -18,38 +18,51 @@ def get_receiver_add():
 
 # Function to get the log file path
 def get_log_file():
-    return "C:\\NSE\\nse_report_downloader.log"
+    return "C:\\Projects\\NSEBOT\\nse_report_downloader.log"
 
 # Function to send the email with the provided details
-def send_mail(status, num_downloaded, num_validated, num_renamed):
-    # Set up the email parameters
-    message = MIMEMultipart()
-    message["From"] = 'here220502@gmail.com'
-    password = "odlx keen jlww svkb"
+def send_mail(status, num_downloaded=0, num_validated=0, num_renamed=0):
     receiver_add = get_receiver_add()
-    message["Subject"] = "NSE BOT REPORT RETRIEVAL AUTOMATION RUN DETAILS"
     
     # Check if the receiver email is available
     if not receiver_add:
-        raise ValueError("Receiver email address is not specified.")
+        print("Receiver email address is not specified in config.txt.")
+        return False
     
+    # Set up the email parameters
+    message = MIMEMultipart()
+    message["From"] = 'nsebot22@gmail.com'
+    password = "ixvq louc dlza scao"
     message["To"] = receiver_add
 
-    # Compose the body of the email with dynamic content
-    body = f"""
-    Hello,
+    # Check if no files are available to download
+    if num_downloaded == 0 or "no reports" in status.lower():
+        message["Subject"] = "NSE BOT: No Reports Are There to Download"
+        body = f"""Hello,
 
-    This is the summary of the latest report download automation run.
+This is to notify you that there are no reports available to download on the NSE portal.
 
-    Overall Status: {status}
-    
-    Number of Files that Downloaded: {num_downloaded}
-    Number of Files that are Validated: {num_validated}
-    Number of Files Renamed: {num_renamed}
+Overall Status: {status}
+Number of Files Downloaded: {num_downloaded}
 
-    Regards,
-    NSE Report Automation
-    """
+Regards,
+NSE Report Automation
+"""
+    else:
+        message["Subject"] = "NSE BOT REPORT RETRIEVAL AUTOMATION RUN DETAILS"
+        body = f"""Hello,
+
+This is the summary of the latest report download automation run.
+
+Overall Status: {status}
+
+Number of Files that Downloaded: {num_downloaded}
+Number of Files that are Validated: {num_validated}
+Number of Files Renamed: {num_renamed}
+
+Regards,
+NSE Report Automation
+"""
 
     # Attach the body to the email
     message.attach(MIMEText(body, "plain"))
@@ -67,8 +80,7 @@ def send_mail(status, num_downloaded, num_validated, num_renamed):
             )
             message.attach(mime_base)
     except FileNotFoundError:
-        print(f"File not found: {log_file}")
-        exit(1)
+        print(f"Log file not found: {log_file}. Skipping attachment.")
 
     # Send the email
     try:
@@ -77,5 +89,7 @@ def send_mail(status, num_downloaded, num_validated, num_renamed):
             server.login(message["From"], password)
             server.send_message(message)
             print("Email sent successfully!")
+            return True
     except Exception as e:
         print(f"Error occurred: {e}")
+        return False

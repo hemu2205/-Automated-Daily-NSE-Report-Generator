@@ -24,12 +24,12 @@ EMAIL_PASSWORD = "HemuNSE@22"  # Consider using environment variables for better
 RECIPIENT_EMAIL = "hemanthkanjivaram@gmail.com"
 
 # Paths
-BASE_FOLDER = "C:\\NSE\\Reports"
-LOG_FILE = "C:\\NSE\\NSE Log"
+BASE_FOLDER = "C:\\Projects\\NSEBOT\\Reports"
+LOG_FILE = "C:\\Projects\\NSEBOT\\NSE Log"
 
 # Set up logging
-if not os.path.exists("C:\\NSE"):
-    os.makedirs("C:\\NSE")
+if not os.path.exists("C:\\Projects\\NSEBOT"):
+    os.makedirs("C:\\Projects\\NSEBOT")
 if os.path.exists(LOG_FILE):
     os.remove(LOG_FILE)
 

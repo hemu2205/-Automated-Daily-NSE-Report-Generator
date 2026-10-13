@@ -1,4 +1,9 @@
 import streamlit as st
+import logging
+
+# Silence noisy third-party loggers
+logging.getLogger("urllib3").setLevel(logging.ERROR)
+logging.getLogger("selenium").setLevel(logging.ERROR)
 
 import os
 from mail_setup import (
@@ -11,7 +16,8 @@ from mail_setup import (
     get_saved_email,
     otp_gen,
 )
-from main import main as run_main_script
+import importlib
+import main
 from Scheduling import add_new_schedule, start_scheduler, get_job_status
 from datetime import datetime
 
@@ -249,22 +255,31 @@ if page == "NSE Report Downloader":
 )
 
 
+    if twofa_exists():
+        st.session_state.email_setup = True
+
     if not st.session_state.email_setup:
         st.warning("Please set up your email first on the Email Setup page.")
     else:
         st.markdown("### Actions", unsafe_allow_html=True)
         
-        
         col1, col2, col3 = st.columns([2, 1, 2])
         with col2:
-            if st.button("Run Report Automation"):
+            if st.button("Run Automation"):
                 st.info("Starting report automation process...")
                 try:
-                    run_main_script()  
-                    st.success("Report automation completed successfully!")
+                    with st.spinner("Executing main.py directly: Downloading, extracting, and validating NSE reports..."):
+                        importlib.reload(main)
+                        status = main.main()
 
+                    if status == "success":
+                        st.success("Report automation completed successfully! Email notification sent.")
+                    elif status == "No reports are there to download":
+                        st.info("No reports available to download on the NSE portal. Notification email sent.")
+                    else:
+                        st.error(f"Automation finished with status: {status}. Check the Logs tab for details.")
                 except Exception as e:
-                    st.error(f"An error occurred: {e}")
+                    st.error(f"An error occurred while running main.py: {e}")
 
 
 elif page == "Schedule Automation":
@@ -304,18 +319,26 @@ elif page == "Schedule Automation":
         st.rerun()
 elif page == "Logs":
      st.title("Application Logs")
-     log_file_path = "C:\\NSE\\nse_report_downloader.log" # Path to the log file
+     log_file_path = "C:\\Projects\\NSEBOT\\nse_report_downloader.log" # Path to the log file
 
      if os.path.exists(log_file_path):
         st.subheader("Latest Logs")
         
-        with open(log_file_path, "r") as log_file:
+        with open(log_file_path, "r", encoding="utf-8", errors="ignore") as log_file:
             logs = log_file.readlines()
-            logs_display = "\n".join(logs[-50:])  # Display last 50 lines of the log file
+            logs_display = "".join(logs[-100:])  # Display last 100 lines of the log file
             
         st.text_area("Logs", logs_display, height=400)
         
-        if st.button("Refresh Logs"):
-            st.rerun()
+        col1, col2 = st.columns([1, 1])
+        with col1:
+            if st.button("Refresh Logs"):
+                st.rerun()
+        with col2:
+            if st.button("Clear Logs"):
+                with open(log_file_path, "w", encoding="utf-8") as f:
+                    f.write("")
+                st.success("Logs cleared successfully!")
+                st.rerun()
      else:
         st.warning("Log file not found! Ensure logs are being generated.")

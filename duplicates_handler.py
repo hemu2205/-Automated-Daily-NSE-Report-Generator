@@ -14,21 +14,14 @@ logging.basicConfig(
 )
 
 def resolve_duplicate_name(existing_names, duplicate_name):
-    max_attempts = 3
-    temp_name = None
-
-    while max_attempts:
-        temp_name = input(f"File '{duplicate_name}' is a duplicate. Enter a new name: ").strip()
-        if temp_name and temp_name not in existing_names:
-            return temp_name  
-        logging.warning(f"Invalid or duplicate name '{temp_name}'. Attempts remaining: {max_attempts - 1}")
-        max_attempts -= 1
-    logging.warning("Max attempts exceeded. Allocating a new filename automatically.")
-    auto_name = f"{duplicate_name}[1]"
-    while auto_name in existing_names:  
-        auto_name = auto_name.replace("]", f"{random.randint(1, 9)}]")
-    logging.info(f"Auto-allocated filename: {auto_name}")
-    return auto_name
+    base, ext = os.path.splitext(duplicate_name)
+    counter = 1
+    new_name = f"{base}[{counter}]{ext}"
+    while new_name in existing_names:
+        counter += 1
+        new_name = f"{base}[{counter}]{ext}"
+    logging.info(f"Auto-resolved duplicate filename: '{duplicate_name}' -> '{new_name}'")
+    return new_name
 
 def handle_redundant_files(directory):
     """Handle duplicate files in the specified directory."""
